@@ -124,32 +124,23 @@ CodeDeploy swaps traffic between the "one" and "two" target groups on each deplo
 4. **Build, deploy, and test** each microservice following Phases 2 through 9
 
 ### REPOSITORY STRUCTURE
->
-Building-Microservices-and-a-CI-CD-Pipeline-with-AWS/
-│
+
+## Repository Structure
+
+```text
+.
 ├── README.md
-│
-├── AWS Cloud CI_CD Architecture Blueprint.png
-│
 ├── 01_Planning the design and estimating cost/
-│
 ├── 02_Analyzing the infrastructure of the monolithic application/
-│
 ├── 03_Creating a development environment and checking code into a Git repository/
-│
 ├── 04_Configuring the application as two microservices and testing them in Docker containers/
-│
 ├── 05_Create ECR repositories and upload the Docker images/
-│
 ├── 06_Creating target groups and an Application Load Balancer/
-│
-├── 07_ Creating two Amazon ECS services/
-│
+├── 07_Creating two Amazon ECS services/
 ├── 08_Configuring CodeDeploy and CodePipeline/
-│
 ├── 09_Adjusting the microservice code to cause a pipeline to run again/
-│
-└── Screenshot/
+├── Screenshot/
+└── AWS Cloud CI_CD Architecture Blueprint.png
 
 ## 📚 Getting Help
 
