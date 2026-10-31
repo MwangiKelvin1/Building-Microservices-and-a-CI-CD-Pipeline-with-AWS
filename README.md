@@ -123,24 +123,33 @@ CodeDeploy swaps traffic between the "one" and "two" target groups on each deplo
 3. **Create the architecture diagram and cost estimate** (Phase 1) before building
 4. **Build, deploy, and test** each microservice following Phases 2 through 9
 
-### Repository Structure
-
-```
-.
+### REPOSITORY STRUCTURE
+>
+Building-Microservices-and-a-CI-CD-Pipeline-with-AWS/
+│
 ├── README.md
-├── images/
-│   └── architecture-diagram.png
-├── microservices/
-│   ├── customer/        # Customer microservice (read-only, port 8080)
-│   └── employee/        # Employee microservice (admin, served under /admin)
-└── deployment/
-    ├── taskdef-customer.json
-    ├── taskdef-employee.json
-    ├── appspec-customer.yaml
-    ├── appspec-employee.yaml
-    ├── create-customer-microservice-tg-two.json
-    └── create-employee-microservice-tg-two.json
-```
+│
+├── AWS Cloud CI_CD Architecture Blueprint.png
+│
+├── 01_Planning the design and estimating cost/
+│
+├── 02_Analyzing the infrastructure of the monolithic application/
+│
+├── 03_Creating a development environment and checking code into a Git repository/
+│
+├── 04_Configuring the application as two microservices and testing them in Docker containers/
+│
+├── 05_Create ECR repositories and upload the Docker images/
+│
+├── 06_Creating target groups and an Application Load Balancer/
+│
+├── 07_ Creating two Amazon ECS services/
+│
+├── 08_Configuring CodeDeploy and CodePipeline/
+│
+├── 09_Adjusting the microservice code to cause a pipeline to run again/
+│
+└── Screenshot/
 
 ## 📚 Getting Help
 
