@@ -123,8 +123,6 @@ CodeDeploy swaps traffic between the "one" and "two" target groups on each deplo
 3. **Create the architecture diagram and cost estimate** (Phase 1) before building
 4. **Build, deploy, and test** each microservice following Phases 2 through 9
 
-### REPOSITORY STRUCTURE
-
 ## Repository Structure
 
 ```text
